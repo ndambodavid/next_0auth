@@ -28,6 +28,7 @@ export const generateVerificationToken = async (email: string) => {
     },
   });
 
+
   return verficationToken;
 };
 
